@@ -40,3 +40,11 @@ data class DogBreed(
     // written in body so that instantiated only when pushed to the database
     // also not present in backend data
 }
+
+data class DogPalette(var color: Int)
+
+data class SmsInfo(
+    var to: String,
+    var text: String,
+    var imageUrl: String?
+)
