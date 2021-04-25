@@ -19,6 +19,9 @@ class DogsListAdapter (val dogsList: ArrayList<DogBreed>): RecyclerView.Adapter<
         dogsList.clear()
         dogsList.addAll(newdogsList)
         notifyDataSetChanged()
+
+
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogViewHolder {
