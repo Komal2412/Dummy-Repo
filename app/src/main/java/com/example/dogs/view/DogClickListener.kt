@@ -9,5 +9,5 @@ interface DogClickListener {
     fun onDogClicked(v: View)
 
 
-    
+
 }
